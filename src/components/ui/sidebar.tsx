@@ -123,6 +123,7 @@ export const MobileSidebar = ({
         <AnimatePresence>
           {open && (
             <motion.div
+            onClick={()=>setOpen(!open)}
               initial={{ x: "-100%", opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: "-100%", opacity: 0 }}
@@ -137,7 +138,7 @@ export const MobileSidebar = ({
             >
               <div
                 className="absolute right-10 top-10 z-50 text-neutral-800 dark:text-neutral-200"
-                onClick={() => setOpen(!open)}
+                onClick={()=>setOpen(!open)}
               >
                 <IconX />
               </div>
