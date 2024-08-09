@@ -8,7 +8,7 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer className="bg-muted py-6 mt-12 ">
-      <div className='w-[98.88vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'> </div>
+<div className='w-[100vw]  md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
       <div className="container max-w-3xl mx-auto px-4 flex flex-col items-center gap-4 text-center ">
         <div className="grid gap-1">
           <h3 className="text-lg font-bold tracking-tighter">Kartik Kochhar <span> &#x2022;</span> <span className="text-base font-light">Full-Stack Web Developer</span></h3>

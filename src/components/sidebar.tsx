@@ -41,7 +41,7 @@ export function SidebarDemo() {
   return (
     <div
       className={cn(
-        "fixed left-0 top-6 md:top-0 bg-none md:min-h-screen md:flex-row md:bg-gray-100 dark:bg-neutral-800 flex-1 justify-items-end overflow-hidden z-50 md:border-r-[0.5px] border-neutral-800 border-opacity-50",
+        "fixed left-0 top-0 w-full md:w-auto md:top-0 bg-none md:min-h-screen md:flex-row md:bg-gray-100 dark:bg-neutral-800 flex-1 justify-items-end overflow-hidden z-50 md:border-r-[0.5px] border-neutral-800 border-opacity-50",
         "h-auto" // for your use case, use `h-screen` instead of `h-[60vh]`
       )}
     >

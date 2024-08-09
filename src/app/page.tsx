@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="ml-[5vw] md:ml-[15vw] z-50">
-      <div className="mt-[5vh] text-3xl tracking-tight opacity-80"> I'm Kartik Kochhar. How are you?</div>
-      <div className="flex flex-col gap-5 mt-[8vh] tracking-tight text-md leading-tight">
+      <div className="mt-[10vh] md:mt-[5vh] text-3xl tracking-tight opacity-80"> I'm Kartik Kochhar. How are you?</div>
+      <div className="flex flex-col gap-5 mt-[8vh] tracking-tight text-md leading-tight pr-4">
         <div className="font-bold text-md">I craft seamless digital experiences by blending data-driven <br /> insights with creative design.</div>
         <div className="opacity-95">
         Frontend Intern at <LinkPreview className="underline font-bold  text-neutral-500" url="https://magenta-eclair-9e0db3.netlify.app/"> FEEH </LinkPreview><br />
@@ -31,7 +31,7 @@ export default function Home() {
       <MainCard inverted={false} title={""} desc={""}/>
       <MainCard inverted={true} title={""} desc={""}/>
       </div>
-      <div className='w-[98.88vw] ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
+      <div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
       <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> Let's Engineer Together</div>
       <div className="flex flex-col mr-5 md:flex-row gap-5">
   <div className="w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 py-6 px-4 border-black border-[1px]">
@@ -45,7 +45,7 @@ export default function Home() {
   </div>
 </div>
 
-      <div className='w-[98.88vw] ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'> </div>
+<div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
       
       <div className=" min-h-[90vh] mr-6">
 
