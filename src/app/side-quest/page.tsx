@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
       <div className='text-5xl pt-10 md:pt-0 tracking-tighter text-center font-semibold text-neutral-700 mt-10'>Side Quests</div>
-      <div className='ml-[]'>
+      <div className='ml-[] md:ml-[10vw]'>
           
           <MainCard inverted={true} title={''} desc={''} />
           <MainCard inverted={false} title={''} desc={''} />

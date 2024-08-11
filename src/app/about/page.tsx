@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className='ml-[10vw] pt-10 md:pt-0'>
       <div className='text-5xl ml-[-10vw] tracking-tighter text-center font-semibold text-neutral-700 mt-10'>About Me</div>
-      <div className='ml-[-10vw]'>
+      <div className='ml-[-10vw] md:ml-0'>
         
     <MainCard inverted={true} title={''} desc={''} />
       </div>
@@ -28,7 +28,7 @@ const page = () => {
       </div>
     </div>
     
-    <div className='ml-[-10vw]'>
+    <div className='ml-[-10vw] md:ml-0'>
     <MainCard inverted={true} title={''} desc={''} />
     <MainCard inverted={true} title={''} desc={''} />
     <MainCard inverted={true} title={''} desc={''} />
