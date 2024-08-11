@@ -27,7 +27,7 @@ export default function Home() {
     
       <div className="flex-col ml-[-5vw] md:ml-[-5vw]  mt-10">
       {projectdata.map(({id,title,desc},index)=>(
-          <Link href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>
+          <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>
         ))}
       
       
