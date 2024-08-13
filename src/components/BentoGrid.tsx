@@ -27,7 +27,7 @@ const BentoGrid: React.FC = () => {
         </div>
 
         <div className="border bg-grid-small-black/[0.4]  border-gray-300 rounded-lg p-4 bg-white flex items-center md:col-span-2">
-          <Link href="https://airtable.com/appMD0f5N6hJ8Ijoj/pag72380iWxDoPnuv/form" className="flex items-center" target="_blank" rel="noopener noreferrer">
+          <Link href="" className="flex items-center" target="_blank" rel="noopener noreferrer">
             <div className="bg-green-300 shadow shadow-green-500/50 w-3 h-3 rounded-full mr-2"></div>
             <span className="font-medium">Available for a Project</span>
             <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -38,11 +38,11 @@ const BentoGrid: React.FC = () => {
 
         <div className="border border-gray-300 rounded-lg p-4 bg-white flex items-center justify-center md:col-span-2">
           <div className="flex space-x-4">
-            <SocialLink href="https://www.instagram.com/jahnvi_batra/" icon="/assets/brand-linkedin.png" />
-            <SocialLink href="https://www.linkedin.com/in/jahnvi-batra-1826361b3/" icon="/assets/brand-github.png" />
+            <SocialLink href="https://www.instagram.com/" icon="/assets/brand-linkedin.png" />
+            <SocialLink href="https://www.linkedin.com/in/" icon="/assets/brand-github.png" />
             <SocialLink href="#" icon="/assets/brand-twitter.png" />
-            <SocialLink href="https://layers.to/batrajahnvi1053" icon="/assets/bolt.png" />
-            <SocialLink href="https://www.behance.net/jahnvibatra" icon="/assets/brand-instagram.png" />
+            <SocialLink href="https://layers.to/" icon="/assets/bolt.png" />
+            <SocialLink href="https://www.behance.net/" icon="/assets/brand-instagram.png" />
           </div>
         </div>
 
