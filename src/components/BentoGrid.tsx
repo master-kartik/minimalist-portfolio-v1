@@ -11,7 +11,7 @@ const BentoGrid: React.FC = () => {
         <div className="border border-gray-300 rounded-lg p-4 bg-white md:col-span-4 md:row-span-3">
           <div className="relative w-full h-64 md:h-[70vh] overflow-hidden rounded-lg">
             <Image 
-              src="https://framerusercontent.com/images/WAysxCUGPong6OJ0mnoRxfkSfRI.png?scale-down-to=1024" 
+              src="https://images.unsplash.com/photo-1622861431942-b45f2b5b6564?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Profile" 
               layout="fill"
               objectFit="cover"
@@ -48,7 +48,7 @@ const BentoGrid: React.FC = () => {
 
         <Link href="/Play" className="border [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border-gray-300 rounded-lg p-4 bg-white md:col-span-2">
           <div className="relative h-40 md:h-60 lg:h-72 overflow-hidden">
-            <Image src="https://framerusercontent.com/images/WAysxCUGPong6OJ0mnoRxfkSfRI.png?scale-down-to=1024" alt="Carousel" layout="fill" objectFit="cover" className="rounded-lg" />
+            <Image src="https://images.unsplash.com/photo-1622861431942-b45f2b5b6564?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Carousel" layout="fill" objectFit="cover" className="rounded-lg" />
           </div>
         </Link>
 

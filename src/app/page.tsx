@@ -1,10 +1,10 @@
-
 import type { Metadata } from "next";
 import BentoGrid from "@/components/BentoGrid";
 import MainCard from "@/components/MainCard";
 import { LinkPreview } from "@/components/ui/link-preview";
 import projectdata from "@/data/projectdata"
 import Link from "next/link";
+import JoinWaitlistButton from "@/components/Button";
 
 export const metadata: Metadata = {
   title: "hold on you crazy child",
@@ -15,14 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     import('locomotive-scroll').then((locomotiveModule) => {
-  //       new locomotiveModule.default({
-  //       });
-  //     });
-  //   }
-  // }, [])
   return (  
     <main className="ml-[5vw] md:ml-[15vw] z-50">
       <div className="mt-[10vh] md:mt-[5vh] text-3xl tracking-tight opacity-80"> I'm Kartik Kochhar. How are you?</div>
@@ -35,12 +27,14 @@ export default function Home() {
       </div>
     
       <div className="flex-col ml-[-5vw] md:ml-[-5vw]  mt-10">
-      {projectdata.map(({id,title,desc},index)=>(
-          <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>
-        ))}
-      
-      
+      {projectdata.map(({id,title,desc},index)=>{
+
+        if(index < 4){
+        return <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>}
+      }
+        )}
       </div>
+        <Link href={'/work'} className="w-[100vw] flex items-center justify-center -ml-[15vw] mb-10"><JoinWaitlistButton textVal={'wanna se more?'}/></Link>
       <div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
       <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> Let's Engineer Together</div>
       <div className="flex flex-col mr-5 md:flex-row gap-5">

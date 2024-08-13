@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
       </div>
-  <div className="mt-[5vh] text-md tracking-tight text-center opacity-80 mb-2 text-sm text-neutral-700">Engineered with ♥️  and NextJS @2024 Kartik Kochhar All rights reserved</div> 
+  <div className="mt-[5vh] text-md tracking-tight text-center opacity-80 mb-2 text-sm text-neutral-700">Engineered with ♥️  and NextJS @2024 <span className="">Kartik Kochhar</span></div> 
     </footer>
   )
 }
