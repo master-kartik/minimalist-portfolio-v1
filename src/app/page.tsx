@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import BentoGrid from "@/components/BentoGrid";
 import MainCard from "@/components/MainCard";
@@ -14,7 +15,15 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return (
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     import('locomotive-scroll').then((locomotiveModule) => {
+  //       new locomotiveModule.default({
+  //       });
+  //     });
+  //   }
+  // }, [])
+  return (  
     <main className="ml-[5vw] md:ml-[15vw] z-50">
       <div className="mt-[10vh] md:mt-[5vh] text-3xl tracking-tight opacity-80"> I'm Kartik Kochhar. How are you?</div>
       <div className="flex flex-col gap-5 mt-[8vh] tracking-tight text-md leading-tight pr-4">

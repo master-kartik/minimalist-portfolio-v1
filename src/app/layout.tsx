@@ -3,8 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { SidebarDemo } from "@/components/sidebar";
 import Footer from "@/components/Footer";
-
-
+import SmoothScrolling from '@/components/SmoothScrolling'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,17 +17,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+  
     <html lang="en">
 
-      <body className={inter.className}>
-        {children}
-        <SidebarDemo/>
-      
-        <Footer/>
-       
+<body className={inter.className}>
+<SmoothScrolling>
+{children}
+  <SidebarDemo/>
+
+  <Footer/>
+ 
+</SmoothScrolling>
+  
 
 
-            </body>
-    </html>
+  
+      </body>
+</html>
   );
 }
