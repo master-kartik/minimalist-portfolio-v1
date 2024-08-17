@@ -9,8 +9,8 @@ const page = () => {
       <div className='ml-[] md:ml-[10vw]'>
       {projectdata.map(({id,title,desc},index)=>{
 
-if(index){
-return <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>}
+if(id){
+return <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard img='' inverted={id%2===0 ? true : false} title={title} desc={desc}/></Link>}
 }
 )}
       </div>

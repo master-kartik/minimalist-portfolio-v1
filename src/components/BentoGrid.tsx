@@ -26,7 +26,7 @@ const BentoGrid: React.FC = () => {
           </Link>
         </div>
 
-        <div className="border bg-grid-small-black/[0.4]  border-gray-300 rounded-lg p-4 bg-white flex items-center md:col-span-2">
+        <div className="border bg-grid-small-black/[0.1]  border-gray-300 rounded-lg p-4 bg-white flex items-center md:col-span-2">
           <Link href="" className="flex items-center" target="_blank" rel="noopener noreferrer">
             <div className="bg-green-300 shadow shadow-green-500/50 w-3 h-3 rounded-full mr-2"></div>
             <span className="font-medium">Available for a Project</span>
@@ -71,7 +71,7 @@ interface SocialLinkProps {
 
 const SocialLink: React.FC<SocialLinkProps> = ({ href, icon }) => (
   <Link href={href} target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-2 rounded-lg">
-    <Image src={icon} alt="Social Icon" className='w-6 h-6 opacity-50 hover:opacity-70  hover:scale-125 duration-300' width={24} height={24} />
+    <Image src={icon} alt="Social Icon" className='w-6 h-6 opacity-50 hover:opacity-70  hover:scale-125 duration-100' width={24} height={24} />
   </Link>
 );
 
