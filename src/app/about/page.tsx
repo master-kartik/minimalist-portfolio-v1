@@ -7,7 +7,7 @@ const page = () => {
       <div className='text-5xl ml-[-10vw] tracking-tighter text-center font-semibold text-neutral-700 mt-10'>About Me</div>
       <div className='ml-[-10vw] md:ml-0'>
         
-    <MainCard inverted={true} title={''} desc={''} />
+    <MainCard img='' inverted={true} title={''} desc={''} />
       </div>
     <div className="ml-[-3vw] md:flex justify-between ">
       <div>
@@ -29,9 +29,9 @@ const page = () => {
     </div>
     
     <div className='ml-[-10vw] md:ml-0'>
-    <MainCard inverted={true} title={''} desc={''} />
-    <MainCard inverted={true} title={''} desc={''} />
-    <MainCard inverted={true} title={''} desc={''} />
+    <MainCard img='' inverted={true} title={''} desc={''} />
+    <MainCard img='' inverted={true} title={''} desc={''} />
+    <MainCard img='' inverted={true} title={''} desc={''} />
     </div>
 
     </div>
