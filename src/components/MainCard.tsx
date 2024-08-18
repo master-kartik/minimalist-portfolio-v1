@@ -12,7 +12,7 @@ interface MainCardProps {
 const MainCard = ({inverted,title, desc, img} : MainCardProps) => {
   
   return (
-    <div className={` px-6 md:px-0 md:flex ${inverted ? 'md:flex-row-reverse':'md:flex'} items-center justify-center my-20`} >
+    <div className={` px-6 md:px-0 md:flex ${inverted ? 'md:flex-row-reverse':'md:flex'} items-center justify-center`} >
         <div className=' w-full md:w-[60%] flex-col items-center'>
         <div className={`:w-full h-[0.5px] bg-neutral-800 opacity-50 ${inverted ? '':'md:w-[80vw]'}`}></div>
         <div className={`w-full text-neutral-700 ${inverted ? 'text-left':'md:text-right'}  mt-2`}>

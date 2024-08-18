@@ -26,15 +26,15 @@ export default function Home() {
         </div>
       </div>
     
-      <div className="flex-col ml-[-5vw] md:ml-[-5vw]  mt-10">
+      <div className="flex-col ml-[-5vw] md:ml-[-5vw]  mt-10"> 
       {projectdata.map(({id,title,desc},index)=>{
 
         if(index < 4){
-        return <Link key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} img="" title={title} desc={desc}/></Link>}
+        return <Link className="" key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} img="" title={title} desc={desc}/></Link>}
       }
         )}
       </div>
-        <Link href={'/work'} className="w-[98.8vw] flex items-center justify-center -ml-[5vw] md:-ml-[15vw] mb-16"><JoinWaitlistButton textVal={'wanna se more?'}/></Link>
+        <Link href={'/work'} className="w-[98.8vw] opacity-85 hover:opacity-100 flex items-center justify-center -ml-[5vw] md:-ml-[15vw] mt-10 mb-16"><JoinWaitlistButton textVal={'wanna se more?'}/></Link>
       <div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
       <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> Let's Engineer Together</div>
       <div className="flex flex-col mr-5 md:flex-row gap-5">

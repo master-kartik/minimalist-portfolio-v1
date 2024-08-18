@@ -6,7 +6,7 @@ const JoinWaitlistButton = ({textVal}:TextType) => {
     return (
         <button
             type="button"
-            className="relative tracking-tighter inline-flex items-center justify-center bg-white md:bg-transparent hover:text-white hover:bg-neutral-950 duration-300 hover:tracking-tight px-10 md:px-16 py-4 text-neutral-900"
+            className="relative tracking-tighter inline-flex items-center justify-center bg-white md:bg-transparent hover:text-white hover:bg-neutral-950 duration-300 px-10 md:px-16 py-4 text-neutral-900"
         >
             <div
                 className="z-10 md:-z-10 absolute left-0 right-0 top-0 flex justify-center"

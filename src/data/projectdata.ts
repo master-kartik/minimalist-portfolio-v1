@@ -231,30 +231,34 @@ const projectdata: ProjectDataType[] = [
       },
       {
         title: "Figma Design:",
-        desc: "",
+        desc: "For a clean and simple user experience.",
       },
     ],
     h3: "Tech Stack of the Project:",
     d3: [
       {
         title: "React.js:",
-        desc: "",
+        desc: "To make this a modern single page application.",
       },
       {
         title: "Tailwind CSS:",
-        desc: "",
+        desc: "For designing components with ease.",
       },
       {
         title: "HTML:",
-        desc: "",
+        desc: " To give basic structure, and metadata",
       },
       {
         title: "JavaScript:",
-        desc: "",
+        desc: "For asynchronus data fetching and overall development.",
       },
       {
         title: "Figma:",
-        desc: "",
+        desc: "Desingning a clean interface.",
+      },
+      {
+        title: "Material Tailwind:",
+        desc: "To use some pre developed components directly.",
       },
     ],
     h4: "Time Taken",
@@ -274,23 +278,23 @@ const projectdata: ProjectDataType[] = [
     d2: [
       {
         title: "React.js:",
-        desc: "",
+        desc: "To make this a modern single page application.",
       },
       {
         title: "Material-UI (MUI):",
-        desc: "",
+        desc: "To use some pre developed components directly.",
       },
       {
         title: "HTML:",
-        desc: "",
+        desc: "For metadata and structure, for imporved SEO.",
       },
       {
         title: "JavaScript:",
-        desc: "",
+        desc: "For asynchronus data fetching and overall development.",
       },
       {
         title: "YouTube API:",
-        desc: "",
+        desc: "To fetch data from Youtube like comments, videos etc.",
       },
     ],
     h3: "Time Taken",
