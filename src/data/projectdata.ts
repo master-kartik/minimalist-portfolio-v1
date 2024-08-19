@@ -2,6 +2,7 @@ import { ProjectDataType } from "@/types/projectDataTypes";
 const projectdata: ProjectDataType[] = [
   {
     id: 1,
+    img:'/assets/pickup.gif',
     title: "Pickup Line Generator",
     h1: "Pickup Lines Generator [NextJS Supabase Mixtral API]",
     d1: "Pickup Line Generator is a comprehensive tool that allows users to create custom pickup lines using AI. From generating witty lines to sharing them with friends, the platform ensures a fun and interactive experience. Its responsive design guarantees optimal performance across various devices, making it a convenient and enjoyable tool for users. This is created as a submission for internship application assignment by given by 1811 labs.",
@@ -59,6 +60,7 @@ const projectdata: ProjectDataType[] = [
   {
     id: 2,
     title: "shurCH",
+    img:'/assets/shurCH.gif',
     h1: "An Extension to Search Within YouTube [ExpressJS]",
     d1: "shurCH is a powerful Chrome extension that transforms the way you interact with YouTube videos. By leveraging video transcripts, it enables you to search for specific content within a video, saving time and improving your viewing experience. Whether you're looking for a particular topic, quote, or section, shurCH makes it easy to find exactly what you need. I made it out of my habit of searching through the video to replay that one particular portion of the video during discussions to prove what I was saying, and this exactly helps you do that in speed. Turned out a lot of my friends needed this for their niche use cases.",
     h2: "Features of shurCH:",
@@ -107,6 +109,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 3,
+    img:'',
     title: "FEEH",
     h1: "What is FEEH Store?",
     d1: "FEEH Store is a comprehensive e-commerce website that provides users with a seamless shopping journey. From browsing products to making secure payments, the platform ensures a hassle-free experience. Its responsive design guarantees optimal performance across various devices, making shopping convenient and enjoyable. It was made during my internship as a training project given by my manager to learn and implement frontend skills.",
@@ -165,6 +168,7 @@ const projectdata: ProjectDataType[] = [
   {
     id: 4,
     title: "shuTH",
+    img: '/assets/shuth.gif',
     h1: "Eliminate YouTube Clickbait [HTML, JavaScript & Tailwind CSS]",
     d1: "shuTH is a Chrome extension that transforms your YouTube browsing by removing clickbait thumbnails and substituting them with random screenshots from the video. This innovative tool helps users focus on the content's value rather than being lured by misleading thumbnails, thereby boosting productivity and reducing time spent on mindless viewing.",
     h2: "Features of shuTH:",
@@ -208,6 +212,7 @@ const projectdata: ProjectDataType[] = [
   },
   {
     id: 5,
+    img:'',
     title: "Bhanu Public School",
     h1: "A Modern Educational Platform [ReactJS & Tailwind CSS]",
     d1: "Bhanu Public School is an educational institution in Rajasthan with a strong commitment to providing quality education. The newly designed website serves as a comprehensive digital platform that showcases the school’s offerings, facilitates communication between the school and the community, and provides essential information for students and parents.",
@@ -269,6 +274,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 6,
+    img:'',
     title: "AnonYou",
     h1: "Incognito YouTube Discovery",
     d1: "An innovative web application for browsing YouTube incognito, built to ensure user privacy while delivering a seamless exploration experience.",
@@ -305,6 +311,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 7,
+    img:'',
     title: "Nine-Eleven",
     h1: "A Playful Arcade Game [Python]",
     d1: "Nine-Eleven is a whimsical arcade game developed using Python and Pygame. In the game, players navigate a character through a cityscape filled with towering buildings. The objective is to avoid collisions with the buildings to prolong gameplay and achieve a high score. Despite its name, the game is not intended to trivialize or mock the events of September 11, 2001. Instead, it offers a lighthearted and engaging experience for players looking to challenge their reflexes and coordination.",

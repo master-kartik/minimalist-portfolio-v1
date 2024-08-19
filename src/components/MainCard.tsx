@@ -20,7 +20,7 @@ const MainCard = ({inverted,title, desc, img} : MainCardProps) => {
             <div className=' leading-[1rem] md:leading-3'>{desc || 'Interactive, story-telling education tool (in progress)'}</div>
         </div>
         </div>
-        <div className={`w-full mt-6 md:w-[40%] md:px-4 z-50  ${inverted ? 'md:pl-10':'md:pr-8'}`}><Image alt='image' src={img || 'https://cdn.prod.website-files.com/635dc1a15dee791d705a7eaf/669dc853cd19642dd9ba4922_visavid-ezgif.com-video-to-gif-converter.gif'} width={500} height={500}></Image></div>
+        <div className={`w-full mt-6 md:w-[40%] md:px-4 z-50  ${inverted ? 'md:pl-10':'md:pr-8'}`}><Image unoptimized alt='image' src={img || 'https://cdn.prod.website-files.com/635dc1a15dee791d705a7eaf/669dc853cd19642dd9ba4922_visavid-ezgif.com-video-to-gif-converter.gif'} width={500} height={500}></Image></div>
     </div>
   )
 }

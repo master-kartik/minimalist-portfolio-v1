@@ -27,10 +27,10 @@ export default function Home() {
       </div>
     
       <div className="flex-col ml-[-5vw] md:ml-[-5vw]  mt-10"> 
-      {projectdata.map(({id,title,desc},index)=>{
+      {projectdata.map(({id,title,desc,img},index)=>{
 
         if(index < 4){
-        return <Link className="" key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard inverted={id%2===0 ? true : false} img="" title={title} desc={desc}/></Link>}
+        return <Link className="" key={id} href={{pathname: '/work/open-work', query:{_id: id}}}><MainCard  inverted={id%2===0 ? true : false} img={img} title={title} desc={desc}/></Link>}
       }
         )}
       </div>

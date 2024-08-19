@@ -13,6 +13,7 @@ export type D2Item = {
   export type ProjectDataType = {
     id: number;
     title: string;
+    img: string;
     h1: string;
     d1: string;
     h2: string;
