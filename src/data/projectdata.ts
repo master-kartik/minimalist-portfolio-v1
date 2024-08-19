@@ -109,7 +109,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 3,
-    img:'',
+    img:'/assets/feeh.gif',
     title: "FEEH",
     h1: "What is FEEH Store?",
     d1: "FEEH Store is a comprehensive e-commerce website that provides users with a seamless shopping journey. From browsing products to making secure payments, the platform ensures a hassle-free experience. Its responsive design guarantees optimal performance across various devices, making shopping convenient and enjoyable. It was made during my internship as a training project given by my manager to learn and implement frontend skills.",
