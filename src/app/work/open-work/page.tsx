@@ -31,7 +31,7 @@ const WorkPage = ({ searchParams }: Props) => {
           }
         ></Image>
         <div className="flex gap-5">
-          <Image
+          {/* <Image
             src={"/assets/github-logo.png"}
             alt="Social Icon"
             className="relative bottom-5  w-8 h-8 top-auto duration-100"
@@ -44,7 +44,7 @@ const WorkPage = ({ searchParams }: Props) => {
             className="relative bottom-5  w-8 h-8 top-auto duration-100"
             width={24}
             height={24}
-          />
+          /> */}
         </div>
       </header>
       <article className="flex flex-col text-balance items-left justify-center w-[85vw] md:w-[70vw] text-left tracking-tight">
