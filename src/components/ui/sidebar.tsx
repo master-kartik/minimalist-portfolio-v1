@@ -121,6 +121,9 @@ export const MobileSidebar = ({
             onClick={() => setOpen(!open)}
           />
         </div>
+        <Link href={'/'} className="flex justify-start ml-[-8vw] font-bold tracking-tighter text-sm text-center  z-20 w-full">
+          Kartik
+        </Link>
         
         <AnimatePresence>
           {open && (
