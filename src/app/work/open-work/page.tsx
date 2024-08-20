@@ -3,6 +3,7 @@ import React from "react";
 import projectdata from "@/data/projectdata";
 import Image from "next/image";
 import JoinWaitlistButton from "@/components/Button";
+import Link from "next/link";
 type Props = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
@@ -53,7 +54,7 @@ const WorkPage = ({ searchParams }: Props) => {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, vero!"}
         </h1>
         <div className="fixed bottom-4 right-8">
-          <JoinWaitlistButton textVal={""} />
+          <Link className="z-50" target="_blank" href={fetchedData?.link}><JoinWaitlistButton textVal={""} /></Link>
         </div>
         <h3 className="blog-heading">{fetchedData.h1 || "none"}</h3>
         <p>{fetchedData.d1 || "none"}</p>

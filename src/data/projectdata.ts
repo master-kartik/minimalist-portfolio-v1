@@ -2,6 +2,7 @@ import { ProjectDataType } from "@/types/projectDataTypes";
 const projectdata: ProjectDataType[] = [
   {
     id: 1,
+    link:'https://1811-labs-pickup.vercel.app/',
     img:'/assets/pickup.gif',
     title: "Pickup Line Generator",
     h1: "Pickup Lines Generator [NextJS Supabase Mixtral API]",
@@ -59,6 +60,7 @@ const projectdata: ProjectDataType[] = [
   },
   {
     id: 2,
+    link:'https://github.com/master-kartik/shurCH--Search-Inside-Youtube',
     title: "shurCH",
     img:'/assets/shurCH.gif',
     h1: "An Extension to Search Within YouTube [ExpressJS]",
@@ -109,6 +111,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 3,
+    link:'https://magenta-eclair-9e0db3.netlify.app/',
     img:'/assets/feeh.gif',
     title: "FEEH",
     h1: "What is FEEH Store?",
@@ -167,6 +170,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 4,
+    link:'https://github.com/master-kartik/shuTH-new',
     title: "shuTH",
     img: '/assets/shuth.gif',
     h1: "Eliminate YouTube Clickbait [HTML, JavaScript & Tailwind CSS]",
@@ -212,6 +216,7 @@ const projectdata: ProjectDataType[] = [
   },
   {
     id: 5,
+    link:'https://bhanu-school.netlify.app/',
     img:'',
     title: "Bhanu Public School",
     h1: "A Modern Educational Platform [ReactJS & Tailwind CSS]",
@@ -274,6 +279,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 6,
+    link:'https://storied-torte-10f764.netlify.app/',
     img:'',
     title: "AnonYou",
     h1: "Incognito YouTube Discovery",
@@ -312,6 +318,7 @@ const projectdata: ProjectDataType[] = [
   {
     id: 7,
     img:'',
+    link:'https://github.com/master-kartik/nine-eleven',
     title: "Nine-Eleven",
     h1: "A Playful Arcade Game [Python]",
     d1: "Nine-Eleven is a whimsical arcade game developed using Python and Pygame. In the game, players navigate a character through a cityscape filled with towering buildings. The objective is to avoid collisions with the buildings to prolong gameplay and achieve a high score. Despite its name, the game is not intended to trivialize or mock the events of September 11, 2001. Instead, it offers a lighthearted and engaging experience for players looking to challenge their reflexes and coordination.",

@@ -48,7 +48,7 @@ export function SidebarDemo() {
       
       <Sidebar open={open} setOpen={setOpen}>
         <SidebarBody className="justify-between gap-10 bg-inherit  ">
-          <motion.div className="flex flex-col flex-1 overflow-y-auto">
+          <motion.div className="flex flex-col flex-1 space-x-2 overflow-x-hidden overflow-y-auto">
             {open ? <Logo /> : <LogoIcon />}
             <motion.div className="mt-8 flex flex-col gap-2">
               {links.map((link, idx) => (
@@ -67,13 +67,13 @@ export const Logo = () => {
   return (
     <Link
       href="/"
-      className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
+      className="font-normal flex ml-10  justify-end items-center w-10 text-black py-1 relative z-20"
     >
-      <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+      <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
       <motion.span
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="font-medium text-black dark:text-white whitespace-pre"
+        className="font-bold tracking-tighter text-black dark:text-white whitespace-pre"
       >
         Kartik
       </motion.span>
@@ -84,9 +84,9 @@ export const LogoIcon = () => {
   return (
     <Link
       href="/about"
-      className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
+      className="font-normal flex justify-start -ml-2  items-center text-sm text-black py-1 w-10 relative z-20"
     >
-      <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+      <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
     </Link>
   );
 };

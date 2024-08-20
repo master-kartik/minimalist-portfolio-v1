@@ -4,6 +4,7 @@ import Link, { LinkProps } from "next/link";
 import React, { useState, createContext, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import Image from "next/image";
 
 interface Links {
   label: string;
@@ -121,8 +122,8 @@ export const MobileSidebar = ({
             onClick={() => setOpen(!open)}
           />
         </div>
-        <Link href={'/'} className="flex justify-start ml-[-8vw] font-bold tracking-tighter text-sm text-center  z-20 w-full">
-          Kartik
+        <Link href={'/'} className="flex justify-start ml-[-10vw] font-bold tracking-tighter text-sm text-left  z-20 w-full">
+          <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
         </Link>
         
         <AnimatePresence>
