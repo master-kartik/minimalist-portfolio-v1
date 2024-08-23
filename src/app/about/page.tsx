@@ -6,29 +6,88 @@ import React from 'react'
 const page = () => {
   const image1 = '/assets/about1.png'
   return (
-    <div className='ml-[10vw] pt-10 md:pt-0'>
-      <div className='text-5xl ml-[-10vw] tracking-tighter text-center font-semibold text-neutral-700 mt-10'>About Me</div>
+    <div className='ml-[10vw] pt-0 md:pt-0'>
+      
       <div className='ml-[-10vw] md:ml-0 my-20'>
         
-    <MainCard img={image1} inverted={true} title={"I'm Kartik."} classNames={'mr-[-3rem] scale-75'} desc={`\nThank you for your time. \n\nI’m a tech enthusiast, problem solver, and a filmmaking and design aficionado. \n\nWhether it's coding or crafting stories through film, \nI bring creativity, curiosity, and a relentless drive to \nlearn and innovate to everything I do.`} />
+    <MainCard img={image1} inverted={true} title={"I'm Kartik."} className='md:mr-[-3rem] md:scale-75' desc={`\nThank you for your time. \n\nI’m a tech enthusiast, problem solver, and a filmmaking \nand design aficionado. \nWhether it's coding or crafting stories through film, \nI bring creativity, curiosity, and a relentless drive to \nlearn and innovate to everything I do.`} />
       </div>
     <div className="ml-[-3vw] md:flex justify-between ">
-      <div>
+      <div className='md:w-[35%]'>
         <div className='font-bold text-base text-neutral-700'>Education</div>
-        <div className='text-base text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores autem laborum exercitationem reiciendis? Laborum recusandae earum iste ea tempore voluptatibus nesciunt dicta laudantium amet iure. Accusamus voluptas dolore rerum.</div>
+        <div className='flex flex-col text-base text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'> 
+          <div className='flex gap-2 flex-col text-sm'>
+            <div>
+
+            <div>Maharaja Surajmal Institute of Technology (MSIT)</div>
+            <div>2019-2023</div>
+            </div>
+<div>
+
+            <div>Bachelor of Technology (B.Tech)</div>
+            <div>Electronics and Communication Engineering (ECE)</div>
+</div>
+          </div>
+        </div>
       </div>
-      <div>
-        <div className='font-bold text-base text-neutral-700'>Skills </div>
-        <div className='text-base text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores autem laborum exercitationem reiciendis? Laborum recusandae earum iste ea tempore voluptatibus nesciunt dicta laudantium amet iure. Accusamus voluptas dolore rerum.</div>
-      </div>
-      <div>
-        <div className='font-bold text-base text-neutral-700'>Experience</div>
-        <div className='text-base text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores autem laborum exercitationem reiciendis? Laborum recusandae earum iste ea tempore voluptatibus nesciunt dicta laudantium amet iure. Accusamus voluptas dolore rerum.</div>
-      </div>
-      <div>
-        <div className='font-bold text-base text-neutral-700'>Voulanteer</div>
-        <div className='text-base text-neutral-700  w-[95%] mt-4 mb-10 md:w-[70%]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores autem laborum exercitationem reiciendis? Laborum recusandae earum iste ea tempore voluptatibus nesciunt dicta laudantium amet iure. Accusamus voluptas dolore rerum.</div>
-      </div>
+
+
+      <div className='md:w-[33%]'>
+  <div className='font-bold text-base text-neutral-700'>Experience</div>
+  <div className='flex flex-col text-neutral-700 w-[95%] mt-4 mb-10 text-sm md:w-[70%]'> 
+    <div className='flex flex-col'>
+      <div>Software Development Intern</div>
+      <div>FEEH PVT. LTD</div>
+      <div>May 2023 - Aug 2023</div>
+    </div>
+  
+  </div>
+</div>
+
+
+      <div className='md:w-[33%]'>
+  <div className='font-bold text-base text-neutral-700'>Skills</div>
+  <div className='flex flex-col text-sm text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'>
+    <div>Full Stack Development (MERN Stack)</div>
+    <div>ReactJS, Next.js</div>
+    <div>JavaScript, TypeScript</div>
+    <div>Supabase, Firebase</div>
+    <div>UI/UX Design</div>
+    <div>Video Editing</div>
+    <div>Responsive Web Design</div>
+    <div>Node.js, Express.js</div>
+    <div>Git & Version Control</div>
+    <div>RESTful API Development</div>
+    <div>Tailwind CSS</div>
+    <div>C++, Python</div>
+    <div>SQL, MySQL, DBMS</div>
+    <div>Operating Systems, Linux</div>
+  </div>
+</div>
+
+
+<div className='md:w-[33%]'>
+  <div className='font-bold text-base text-neutral-700'>Volunteer Experience</div>
+  <div className='flex flex-col gap-2 text-sm text-neutral-700 w-[95%] mt-4 mb-10 md:w-[70%]'> 
+  <div className='flex flex-col'>
+      <div>Executive Head of Videography Department</div>
+      <div>E-Cell, MSIT</div>
+      <div>Sep 2021 - May 2023</div>
+    </div>
+    <div className='flex flex-col mt-2'>
+      <div>Member of Photography Society (Innovision)</div>
+      <div>Maharaja Surajmal Institute of Technology (MSIT)</div>
+      <div>Aug 2020 - May 2023</div>
+    </div>
+   
+    <div className='flex flex-col mt-2'>
+      <div>Member of Marketing and PR Department</div>
+      <div>National Service Scheme (NSS), MSIT</div>
+      <div>Jan 2020 - May 2021</div>
+    </div>
+  </div>
+</div>
+
     </div>
     
     <div className='flex-col ml-[-10vw] md:ml-0'>
