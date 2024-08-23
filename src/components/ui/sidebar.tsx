@@ -123,7 +123,7 @@ export const MobileSidebar = ({
           />
         </div>
         <Link href={'/'} className="flex justify-start ml-[-14vw] font-bold tracking-tighter text-sm text-left  z-20 w-full">
-          <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
+          <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className="opacity-75 select-none"/>
         </Link>
         
         <AnimatePresence>
