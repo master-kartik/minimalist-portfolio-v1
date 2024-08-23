@@ -3,7 +3,7 @@ import React from 'react'
 const Testamonials = () => {
   return (
     <div className="flex flex-col mr-5 md:flex-row gap-5">
-    <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
+    <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[30vh] md:min-h-[60vh]  mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
       <div>
       A remarkable talent with a superb sense of design and a solid work ethic. He excel in both frontend and backend tasks, delivering polished results every time. Highly dependable and creative.
       </div>
@@ -17,7 +17,7 @@ const Testamonials = () => {
     </div>
 
 
-       <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
+       <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[30vh] md:min-h-[60vh]  mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
       <div>
       We are very pleased with the website created by this developer. He did a fantastic job, showing great skill in both design and coding. The website works well and looks very professional. We appreciate their hard work and dedication.
       </div>
@@ -29,7 +29,7 @@ const Testamonials = () => {
 
       </div>
     </div>
-    <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
+    <div className="flex flex-col justify-between w-full md:w-[30%] min-h-[30vh] md:min-h-[60vh] mb-8 md:mb-28 pt-6 px-4 border-black border-[1px]">
       <div>
       A standout frontend developer with a keen eye for design and an unwavering commitment to quality. Their work ethic and attention to detail brought our project to life beautifully. Truly a valuable team member.
       </div>
