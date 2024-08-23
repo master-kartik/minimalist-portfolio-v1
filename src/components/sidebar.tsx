@@ -67,13 +67,13 @@ export const Logo = () => {
   return (
     <Link
       href="/"
-      className="font-normal flex ml-10  justify-end items-center w-10 text-black py-1 relative z-20"
+      className="font-normal flex ml-12 justify-end items-center w-10 text-black py-1 relative z-20"
     >
       <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
       <motion.span
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="font-bold tracking-tighter text-black dark:text-white whitespace-pre"
+        className="font-bold text-xl tracking-tighter text-black dark:text-white whitespace-pre"
       >
         Kartik
       </motion.span>

@@ -122,7 +122,7 @@ export const MobileSidebar = ({
             onClick={() => setOpen(!open)}
           />
         </div>
-        <Link href={'/'} className="flex justify-start ml-[-10vw] font-bold tracking-tighter text-sm text-left  z-20 w-full">
+        <Link href={'/'} className="flex justify-start ml-[-14vw] font-bold tracking-tighter text-sm text-left  z-20 w-full">
           <Image src={'/assets/logo.png'} width={50} height={50} alt="Kartik" className=""/>
         </Link>
         
