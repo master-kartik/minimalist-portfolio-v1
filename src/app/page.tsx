@@ -5,6 +5,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 import projectdata from "@/data/projectdata"
 import Link from "next/link";
 import JoinWaitlistButton from "@/components/Button";
+import Testamonials from "@/components/testamonials";
 
 export const metadata: Metadata = {
   title: "hold on you crazy child",
@@ -36,20 +37,12 @@ export default function Home() {
       </div>
         <Link href={'/work'} className="w-[98.8vw] opacity-85 hover:opacity-100 flex items-center justify-center -ml-[5vw] md:-ml-[15vw] mt-10 mb-16"><JoinWaitlistButton textVal={'wanna se more?'}/></Link>
       <div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
-      <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> Let's Engineer Together</div>
-      <div className="flex flex-col mr-5 md:flex-row gap-5">
-  <div className="w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 py-6 px-4 border-black border-[1px]">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis praesentium odio voluptatem aliquid, iusto earum obcaecati? Iste molestias, labore aspernatur porro sequi provident minus similique sit, odit voluptates perspiciatis!
-  </div>
-  <div className="w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 py-6 px-4 border-black border-[1px]">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis praesentium odio voluptatem aliquid, iusto earum obcaecati? Iste molestias, labore aspernatur porro sequi provident minus similique sit, odit voluptates perspiciatis!
-  </div>
-  <div className="w-full md:w-[30%] min-h-[60vh] mb-8 md:mb-28 py-6 px-4 border-black border-[1px]">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis praesentium odio voluptatem aliquid, iusto earum obcaecati? Iste molestias, labore aspernatur porro sequi provident minus similique sit, odit voluptates perspiciatis!
-  </div>
-</div>
+      <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> What the World Says?</div>
+
+     <Testamonials/>
 
 <div className='w-[100vw] ml-[-5vw] md:w-[98.88vw] md:ml-[-15vw] h-[0.5px] bg-neutral-800 opacity-50 mb-10'></div>
+     <div className="my-[5vh] ml-[-7.5vw] text-3xl text-center tracking-tight opacity-80"> Let's Engineer Together</div>
       
       <div className=" min-h-[90vh] mr-6">
 
