@@ -5,6 +5,8 @@ import React from 'react'
 
 const page = () => {
   const image1 = '/assets/about1.png'
+  const image2 = '/assets/about2.gif'
+  const image3 = '/assets/about3.png'
   return (
     <div className='ml-[10vw] pt-0 md:pt-0'>
       
@@ -91,9 +93,10 @@ const page = () => {
     </div>
     
     <div className='flex-col ml-[-10vw] md:ml-0'>
-    <div className='mb-10'><MainCard img='' inverted={true} title={''} desc={''} /></div>
-    <div className='mb-10'><MainCard img='' inverted={true} title={''} desc={''} /></div>
-    <div className='mb-10'><MainCard img='' inverted={true} title={''} desc={''} /></div>
+    <div className='mb-10'><MainCard img={image2} inverted={true} title={'Combining Creativity with Code'} desc={"\nJust like filmmaking and design, where every frame \nand element is carefully crafted to evoke an emotion or tell a story,\nweb development is about creating experiences \nthat are both functional and engaging. "} /></div>
+    <div className='mb-10'><MainCard img={image3} inverted={true} title={'Understanding and Embracing Perspectives'} desc={"\n\nI approach every project by first asking, \n`What experience am I creating?` Whether it's building intuitive, \nresponsive interfaces for an e-commerce site or developing \ninteractive features for a school portal, \nI focus on understanding the needs and desires of the users. \nMy passion for creativity and problem-solving \ndrives me to blend technical skills with a designer's \neye, ensuring every web solution is not only visually \nappealing but also seamless and user-friendly."} /></div>
+
+
     
     </div>
 

@@ -217,7 +217,7 @@ const projectdata: ProjectDataType[] = [
   {
     id: 5,
     link:'https://bhanu-school.netlify.app/',
-    img:'',
+    img:'/assets/bhanu.png',
     title: "Bhanu Public School",
     h1: "A Modern Educational Platform [ReactJS & Tailwind CSS]",
     d1: "Bhanu Public School is an educational institution in Rajasthan with a strong commitment to providing quality education. The newly designed website serves as a comprehensive digital platform that showcases the school’s offerings, facilitates communication between the school and the community, and provides essential information for students and parents.",
@@ -280,7 +280,7 @@ const projectdata: ProjectDataType[] = [
   {
     id: 6,
     link:'https://storied-torte-10f764.netlify.app/',
-    img:'',
+    img:'/assets/anonyou.png',
     title: "AnonYou",
     h1: "Incognito YouTube Discovery",
     d1: "An innovative web application for browsing YouTube incognito, built to ensure user privacy while delivering a seamless exploration experience.",
@@ -317,7 +317,7 @@ const projectdata: ProjectDataType[] = [
 
   {
     id: 7,
-    img:'',
+    img:'/assets/nine.png',
     link:'https://github.com/master-kartik/nine-eleven',
     title: "Nine-Eleven",
     h1: "A Playful Arcade Game [Python]",
