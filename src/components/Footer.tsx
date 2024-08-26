@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-4 text-neutral-700">
           <Link
-            href="#"
+            href="https://github.com/master-kartik"
             target="_blank"
             className="text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
@@ -24,7 +24,7 @@ export default function Footer() {
             <GitlabIcon className="w-5 h-5" />
           </Link>
           <Link
-            href="#"
+            href="https://www.linkedin.com/in/kartik-kochhar-9b0861178/"
             target="_blank"
             className="text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
@@ -32,7 +32,7 @@ export default function Footer() {
             <LinkedinIcon className="w-5 h-5" />
           </Link>
           <Link
-            href="#"
+            href="https://x.com/kartik_kochher"
             target="_blank"
             className="text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}

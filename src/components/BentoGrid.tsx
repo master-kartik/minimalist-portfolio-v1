@@ -27,7 +27,7 @@ const BentoGrid: React.FC = () => {
         </div>
 
         <div className="border bg-grid-small-black/[0.1]  border-gray-300 rounded-lg p-4 bg-white flex items-center md:col-span-2">
-          <Link href="" className="flex items-center" target="_blank" rel="noopener noreferrer">
+          <Link href="https://4dp6gieu2rx.typeform.com/to/P8BsHJTQ" className="flex items-center" target="_blank" rel="noopener noreferrer">
             <div className="bg-green-300 shadow shadow-green-500/50 w-3 h-3 rounded-full mr-2"></div>
             <span className="font-medium">Available for a Project</span>
             <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -38,11 +38,11 @@ const BentoGrid: React.FC = () => {
 
         <div className="border border-gray-300 rounded-lg p-4 bg-white flex items-center justify-center md:col-span-2">
           <div className="flex space-x-4">
-            <SocialLink href="https://www.instagram.com/" icon="/assets/brand-linkedin.png" />
-            <SocialLink href="https://www.linkedin.com/in/" icon="/assets/brand-github.png" />
-            <SocialLink href="#" icon="/assets/brand-twitter.png" />
-            <SocialLink href="https://layers.to/" icon="/assets/bolt.png" />
-            <SocialLink href="https://www.behance.net/" icon="/assets/brand-instagram.png" />
+            <SocialLink href="https://www.linkedin.com/in/kartik-kochhar-9b0861178/" icon="/assets/brand-linkedin.png" />
+            <SocialLink href="https://github.com/master-kartik" icon="/assets/brand-github.png" />
+            <SocialLink href="https://x.com/kartik_kochher" icon="/assets/brand-twitter.png" />
+            <SocialLink href="https://fueler.io/kartik_kochhar" icon="/assets/bolt.png" />
+            <SocialLink href="https://www.instagram.com/kartik_kochhar/" icon="/assets/brand-instagram.png" />
           </div>
         </div>
 

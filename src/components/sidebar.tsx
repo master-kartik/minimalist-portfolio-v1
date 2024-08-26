@@ -4,6 +4,7 @@ import { Sidebar, SidebarBody, SidebarLink, SidebarProvider } from "../component
 import {
   IconArrowLeft,
   IconSchool,
+  IconHome,
   IconBrandXbox,
   IconBriefcase,
 } from "@tabler/icons-react";
@@ -14,6 +15,13 @@ import { cn } from "@/lib/utils";
 
 export function SidebarDemo() {
   const links = [
+    {
+      label: "Home",
+      href: "/Home",
+      icon: (
+        <IconHome className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
     {
       label: "About",
       href: "/about",
@@ -28,13 +36,13 @@ export function SidebarDemo() {
         <IconBriefcase className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
-    {
-      label: "Side Quests",
-      href: "/side-quest",
-      icon: (
-        <IconBrandXbox className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
-      ),
-    },
+    // {
+    //   label: "Side Quests",
+    //   href: "/side-quest",
+    //   icon: (
+    //     <IconBrandXbox className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+    //   ),
+    // },
    
   ];
   const [open, setOpen] = useState(false);
